@@ -2,7 +2,7 @@
 # 1️⃣ Introduction
 
 **Tester(s):**  
-- Name:  
+- Name:  Rina Poutiainen-Uekusa
 
 **Purpose:**  
 - Describe the purpose of this test (e.g., identify vulnerabilities in registration and authentication flows).
