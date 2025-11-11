@@ -12,4 +12,5 @@
 | 5.11.2025 | 3 | PortSwigger | Completed additional labs in Authentication, Access control, Path traversal & OS command injection|
 | 9.11.2025 | 3 | PortSwigger | Completed additional labs in Server-side request forgery, Cross-site scripting & Access control|
 | 11.11.2025 | 1.5 | Online lecture | The project Phase 1 started |
+| 11.11.2025 | x | Teacher's material | Reading materials for Step 1 in Phase 1 |
 
