@@ -10,12 +10,18 @@
 **Scope:**  
 - Tested components:  
 - Exclusions:  
-- Test approach: Gray-box / Black-box / White-box
+- Test approach: Gray-box
 
 **Test environment & dates:**  
+Dates
 - Start: 23.00
 - End:  23.15
-- Test environment details (OS, runtime, DB, browsers): Mac OS
+  
+Test environment details (OS, runtime, DB, browsers)
+- OS: macOS Tahoe 26.1
+- Runtime: Docker Compose (Node.js-based web container)  ?
+- Database: PostgreSQL 15 (containerized) ?
+- Browser: Google Chrome 142.0 (tested via OWASP ZAP)
 
 **Assumptions & constraints:**  
 - e.g., credentials provided, limited time, etc.
@@ -69,24 +75,8 @@
 
 # 5️⃣ OWASP ZAP Test Report (Attachment)
 
-**Purpose:**  
-- Attach or link your OWASP ZAP scan results (Markdown format preferred).
+- The link to my OWASP ZAP scan results is [here](https://github.com/rinawasabi/cyber-security-data-privacy/blob/main/BookingSystem/Phase1/zap_report_round1.md).
 
 ---
 
-**Instructions (CMD version):**
-1. Run OWASP ZAP baseline scan:  
-   ```bash
-   zap-baseline.py -t https://example.com -r zap_report_round1.html -J zap_report.json
-   ```
-2. Export results to markdown:  
-   ```bash
-   zap-cli report -o zap_report_round1.md -f markdown
-   ```
-3. Save the report as `zap_report_round1.md` and link it below.
 
----
-> [!NOTE]
-> 📁 **Attach full report:** → `check itslearning` → **Add a link here**
-
----
