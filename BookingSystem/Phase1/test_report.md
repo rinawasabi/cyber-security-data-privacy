@@ -5,7 +5,7 @@
 - Name:  Rina Poutiainen-Uekusa
 
 **Purpose:**  
-- Describe the purpose of this test (e.g., identify vulnerabilities in registration and authentication flows).
+- To detect vulnerabilities and flows in Booking system's registration and authentication process
 
 **Scope:**  
 - Tested components:  
@@ -13,9 +13,9 @@
 - Test approach: Gray-box / Black-box / White-box
 
 **Test environment & dates:**  
-- Start:  
-- End:  
-- Test environment details (OS, runtime, DB, browsers):
+- Start: 23.00
+- End:  23.15
+- Test environment details (OS, runtime, DB, browsers): Mac OS
 
 **Assumptions & constraints:**  
 - e.g., credentials provided, limited time, etc.
