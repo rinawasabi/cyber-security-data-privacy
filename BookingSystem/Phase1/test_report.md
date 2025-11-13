@@ -68,7 +68,7 @@ The results revealed several vulnabilities in the system ranging from low to hig
 
 | ID | Severity | Finding | Description | Evidence / Proof |
 |------|-----------|----------|--------------|------------------|
-| F-01 | 🔴 High | Path Traversal | Manipulation in URL for accessing unauthorized　files and directories | ZAP report  |
+| F-01 | 🔴 High | Path Traversal | Possible manipulation in URL `/register` | ZAP report  |
 | F-02 | 🔴 High | SQL Injection | `username` accepted SQL input `foo-bar@example.com AND 1=1 --` | ZAP report |
 | F-03 | 🟠 Medium | Absence of Anti-CSRF Tokens | Not found in `[Form 1: "birthdate" "password" "username" ]` | ZAP report |
 | F-04 | 🟠 Medium | Content Security Policy (CSP) Header Not Set | No CSP header in response of `/` and `/register` | ZAP report|
