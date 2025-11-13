@@ -14,3 +14,4 @@
 | 11.11.2025 | 1.5 | Online lecture | The project Phase 1 started |
 | 11.11.2025 | 1 | Booking System | Reading materials for Phase 1 |
 | 12.11.2025 | 3 | Booking System | Setting up Docker & Running penetration tests for Phase 1 |
+| 12.11.2025 | 3 | Booking System | Writing test reports for Phase 1 |
