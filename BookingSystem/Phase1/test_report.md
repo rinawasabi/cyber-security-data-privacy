@@ -41,14 +41,14 @@ Constraints
 The testing of the booking system's registration process was done successfully using ZAP.
 The results revealed several vulnabilities in the system ranging from low to high severity levels.
 
-**Overall risk level:** (Low / Medium / High / Critical)
+**Overall risk level:** High 
 
 **Top 5 immediate actions:**  
-1.  
-2.  
-3.  
-4.  
-5.  
+1.  Implement input validation strategy, and do not accept input unless it follows the specification.
+2.  Use parameterized queries to prevent SQL injections.
+3.  Implement CSRF protection by adding anti-CSRF tokens to HTML forms.
+4.  Set the CSP header to detect and mitigate attacks like XSS and data injection attacks.
+5.  Fix unsafe string handling.
 
 ---
 
