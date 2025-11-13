@@ -5,7 +5,7 @@
 - Name:  Rina Poutiainen-Uekusa
 
 **Purpose:**  
-- To detect vulnerabilities and flows in Booking system's registration and authentication process
+- To detect vulnerabilities and flows in Booking system's registration and authentication process.
 
 **Scope:**  
 - Tested components: Registration page and database connected via Docker Container
@@ -66,22 +66,15 @@ The results revealed several vulnabilities in the system ranging from low to hig
 
 # 4️⃣ Findings
 
-> Fill in one row per finding. Focus on clarity and the most important issues.
-
 | ID | Severity | Finding | Description | Evidence / Proof |
 |------|-----------|----------|--------------|------------------|
-| F-01 | 🔴 High | Path Traversal | Input field allows `' OR '1'='1` injection | Screenshot or sqlmap result |
-| F-02 | 🔴 High | SQL Injection | Session ID remains unchanged after login | Burp log or response headers |
-| F-03 | 🟠 Medium | Absence of Anti-CSRF Tokens | Accepts passwords like "12345" | Screenshot of registration success |
-| F-04 | 🟠 Medium | Content Security Policy (CSP) Header Not Set | Accepts passwords like "12345" | Screenshot of registration success |
-| F-05 | 🟠 Medium | Format String Error | Accepts passwords like "12345" | Screenshot of registration success |
+| F-01 | 🔴 High | Path Traversal | Manipulation in URL for accessing unauthorized　files and directories | ZAP report  |
+| F-02 | 🔴 High | SQL Injection | `username` accepted SQL input `foo-bar@example.com AND 1=1 --` | ZAP report |
+| F-03 | 🟠 Medium | Absence of Anti-CSRF Tokens | Not found in `[Form 1: "birthdate" "password" "username" ]` | ZAP report |
+| F-04 | 🟠 Medium | Content Security Policy (CSP) Header Not Set | No CSP header in response of `/` and `/register` | ZAP report|
+| F-05 | 🟠 Medium | Format String Error | Accepts inputs like `%s` and `%n` in `username` | ZAP report |
 
 
----
-
-> [!NOTE]
-> Include up to 5 findings total.   
-> Keep each description short and clear.
 
 ---
 
