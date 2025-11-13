@@ -8,7 +8,7 @@
 - To detect vulnerabilities and flows in Booking system's registration and authentication process
 
 **Scope:**  
-- Tested components:  
+- Tested components: Registration page 
 - Exclusions:  
 - Test approach: Gray-box
 
@@ -19,8 +19,8 @@ Dates
   
 Test environment details (OS, runtime, DB, browsers)
 - OS: macOS Tahoe 26.1
-- Runtime: Docker Compose (Node.js-based web container)  ?
-- Database: PostgreSQL 15 (containerized) ?
+- Runtime: Docker Container (internal runtime unknown)
+- Database: PostgreSQL 18.0
 - Browser: Google Chrome 142.0 (tested via OWASP ZAP)
 
 **Assumptions & constraints:**  
