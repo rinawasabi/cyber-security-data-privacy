@@ -48,7 +48,7 @@ The results revealed several vulnabilities in the system ranging from low to hig
 2.  Use parameterized queries to prevent SQL injections.
 3.  Implement CSRF protection by adding anti-CSRF tokens to HTML forms.
 4.  Set the CSP header to detect and mitigate attacks like XSS and data injection attacks.
-5.  Fix unsafe string handling.
+5.  Add a security header to prevent clickjack attacks.
 
 ---
 
