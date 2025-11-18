@@ -72,7 +72,7 @@ The results revealed several vulnabilities in the system ranging from low to hig
 | F-02 | 🔴 High | SQL Injection | `username` accepted SQL input `foo-bar@example.com AND 1=1 --` | ZAP report |
 | F-03 | 🟠 Medium | Absence of Anti-CSRF Tokens | Not found in `[Form 1: "birthdate" "password" "username" ]` | ZAP report |
 | F-04 | 🟠 Medium | Content Security Policy (CSP) Header Not Set | No CSP header in response of `/` and `/register` | ZAP report|
-| F-05 | 🟠 Medium | Format String Error | Accepts inputs like `%s` and `%n` in `username` | ZAP report |
+| F-05 | 🟠 Medium | Missing Anti-clickjacking Header | Not found in `/` and `/register` | ZAP report |
 
 
 
