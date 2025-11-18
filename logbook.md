@@ -17,4 +17,4 @@
 | 13.11.2025 | 3 | Booking System | Writing test reports for Phase 1 |
 | 16.11.2025 | 2 | PortSwigger | Completed additional labs in Information disclosure |
 | 18.11.2025 | 1.5 | Online lecture | The project Phase 1 continues |
-| 18.11.2025 | 1.5 | Workshop | The project Phase 1 workshop |
+| 18.11.2025 | 1.5 | Workshop | The project Phase 1 workshop |35.5
