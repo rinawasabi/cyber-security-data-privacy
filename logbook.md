@@ -13,8 +13,9 @@
 | 9.11.2025 | 3 | PortSwigger | Completed additional labs in Server-side request forgery, Cross-site scripting & Access control|
 | 11.11.2025 | 1.5 | Online lecture | The project Phase 1 started |
 | 11.11.2025 | 1 | Booking System | Reading materials for Phase 1 |
-| 12.11.2025 | 3 | Booking System | Setting up Docker & Running penetration tests for Phase 1 |
-| 13.11.2025 | 3 | Booking System | Writing test reports for Phase 1 |
+| 12.11.2025 | 3 | Booking System | Setting up Docker & Running penetration tests for Phase 1 Part1 |
+| 13.11.2025 | 3 | Booking System | Writing test reports for Phase 1 Part1|
 | 16.11.2025 | 2 | PortSwigger | Completed additional labs in Information disclosure |
 | 18.11.2025 | 1.5 | Online lecture | The project Phase 1 continues |
-| 18.11.2025 | 1.5 | Workshop | The project Phase 1 workshop |35.5
+| 18.11.2025 | 1.5 | Workshop | The project Phase 1 Part1 workshop |35.5
+| 18.11.2025 | 1 | Booking System | Fixing report for Phase 1 Part1 |
