@@ -19,4 +19,5 @@
 | 18.11.2025 | 1.5 | Online lecture | The project Phase 1 continues |
 | 18.11.2025 | 1.5 | Workshop | The project Phase 1 Part1 workshop |
 | 18.11.2025 | 1 | Booking System | Fixing report for Phase 1 Part1 |
-| 19.11.2025 | 3 | Booking System | Writing test reports for Phase 1 Part 2 |39,5
+| 19.11.2025 | 3 | Booking System | Writing test reports for Phase 1 Part 2 |
+| 20.11.2025 | 1.5 | Self study | Watched How Hackers Hack Websites -video & Familialized with SecLists  |41
