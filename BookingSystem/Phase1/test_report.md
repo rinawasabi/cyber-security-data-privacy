@@ -44,11 +44,11 @@ The results revealed several vulnabilities in the system ranging from low to hig
 **Overall risk level:** High 
 
 **Top 5 immediate actions:**  
-1.  Implement input validation strategy, and do not accept input unless it follows the specification.
-2.  Use parameterized queries to prevent SQL injections.
-3.  Implement CSRF protection by adding anti-CSRF tokens to HTML forms.
-4.  Set the CSP header to detect and mitigate attacks like XSS and data injection attacks.
-5.  Add a security header to prevent clickjack attacks.
+1.  Restrict access to static files and sanitize user input to prevent path traversal.
+3.  Use parameterized queries to prevent SQL injections.
+4.  Implement CSRF protection by adding anti-CSRF tokens to HTML forms.
+5.  Set the CSP header to detect and mitigate attacks like XSS and data injection attacks.
+6.  Add a security header to prevent clickjack attacks.
 
 ---
 
