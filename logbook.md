@@ -24,4 +24,4 @@
 | 25.11.2025 | 1.5 | Online lecture |Watched the recording of the class on 24.11 |
 | 25.11.2025 | 0.5 | Booking System | Watching the video "Phase 2: Password cracking" |
 | 25.11.2025 | 1 | Booking System | Fixing the Phase 1 Part 2 report |
-| 25.11.2025 | 2 | Booking System | Starting the Phase 2 |46
+| 25.11.2025 | 3 | Booking System | Starting the Phase 2 |47
