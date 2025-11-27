@@ -23,6 +23,7 @@
 | 20.11.2025 | 1.5 | Self study | Watched How Hackers Hack Websites -video & Familialized with SecLists  |
 | 25.11.2025 | 1.5 | Online lecture |Watched the recording of the class on 24.11 |
 | 25.11.2025 | 0.5 | Booking System | Watched the video "Phase 2: Password cracking" |
+| 25.11.2025 | 2 | Booking System | Familialized myself with materials of Phase 2 |
 | 25.11.2025 | 1 | Booking System | Fixed the Phase 1 Part 2 report |
 | 25.11.2025 | 4 | Booking System | Started the Phase 2 |
-| 26.11.2025 | 2 | Booking System | Wrote reports for the Phase 2 |50
+| 26.11.2025 | 2 | Booking System | Wrote reports for the Phase 2 |52
