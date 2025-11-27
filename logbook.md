@@ -26,4 +26,5 @@
 | 25.11.2025 | 2 | Booking System | Familialized myself with materials of Phase 2 |
 | 25.11.2025 | 1 | Booking System | Fixed the Phase 1 Part 2 report |
 | 25.11.2025 | 4 | Booking System | Started the Phase 2 |
-| 26.11.2025 | 2 | Booking System | Wrote reports for the Phase 2 |52
+| 26.11.2025 | 2 | Booking System | Wrote reports for the Phase 2 |
+| 27.11.2025 | 2 | Booking System | Finalized reports for the Phase 2 |54
