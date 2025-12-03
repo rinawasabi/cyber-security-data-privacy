@@ -28,3 +28,4 @@
 | 25.11.2025 | 4 | Booking System | Started the Phase 2 |
 | 26.11.2025 | 2 | Booking System | Wrote reports for the Phase 2 |
 | 27.11.2025 | 2 | Booking System | Finalized reports for the Phase 2 |54
+| 3.12.2025 | 1 | Booking System | Reading other students' finding reports |
