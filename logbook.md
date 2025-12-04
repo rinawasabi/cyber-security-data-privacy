@@ -27,6 +27,6 @@
 | 25.11.2025 | 1 | Booking System | Fixed the Phase 1 Part 2 report |
 | 25.11.2025 | 4 | Booking System | Started the Phase 2 |
 | 26.11.2025 | 2 | Booking System | Wrote reports for the Phase 2 |
-| 27.11.2025 | 2 | Booking System | Finalized reports for the Phase 2 |54
+| 27.11.2025 | 2 | Booking System | Finalized reports for the Phase 2 |
 | 3.12.2025 | 1 | Booking System | Reading other students' finding reports |
-| 4.12.2025 | 1 | Online lecture | The project Phase 3 started |
+| 4.12.2025 | 3 | Online lecture | The project Phase 3 started |56.5
