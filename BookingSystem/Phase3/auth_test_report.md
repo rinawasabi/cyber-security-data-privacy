@@ -37,9 +37,9 @@ Include visible pages **and** API endpoints.
 
 Example format:
 
-* “Can book a resource — `/reservation` + `/api/reservations`”
-* “Can view own profile page — `/profile`”
-* “Can list resources — `/resources`”
+* “Can”
+* “Can”
+* “Can ”
 
 ---
 
