@@ -6,20 +6,22 @@
 ###  **Guest**
 
 **✅ Can do**
- or endpoint.
-* “Can access the main page `/`“
-* “Can register her/himself if they are over 15 years old with strong password on `/register`"
-* “Can see other people's reservations without reserver usernames on `/`“
-* “Can access `/resources`“
+* Can access the main page `/`
+* Can register her/himself if they are over 15 years old with strong password on `/register`
+* Can see other people's reservations without reserver usernames on `/`
+* Can see http://localhost:8003/api/reservations
+* Can access `/resources` (Found in Gobuster & wfuzz)
+* Can access http://localhost:8003/api/users (Found in wfuzz)
+* Can access http://localhost:8003/api/reservations/2
 
 ---
 
 **❌ Cannot do**
 List every action that a *Guest* is blocked from doing.
-* “Cannot login without registering first on `/login`"
-* “Cannot add a new resource on `/resource`"
-* “Cannot add a new reservation on `/reservation`"
-* “Cannot “
+* Cannot login without registering first on `/login`
+* Cannot add a new resource on `/resource`
+* Cannot add a new reservation on `/reservation`
+* Cannot access 
 
 ---
 
