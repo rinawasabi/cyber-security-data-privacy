@@ -80,28 +80,28 @@ The given response has been identified as containing a session management token.
   * Method: `GET`
   * Parameter: `csrf_token`
   * Attack: ``
-  * Evidence: `03a86361-d155-42f1-b203-cc1690b3ff3f`
+  * Evidence: `94d959a2-0b8d-46ef-b009-8c1013c83673`
   * Other Info: `
 cookie:csrf_token`
 * URL: http://localhost:8003/register
   * Method: `GET`
   * Parameter: `csrf_token`
   * Attack: ``
-  * Evidence: `3548c4ba-b41c-472e-8fcd-45deaa2ac219`
+  * Evidence: `83bdecf7-5162-4cc9-ac1c-32095c835b6f`
   * Other Info: `
 cookie:csrf_token`
 * URL: http://localhost:8003/register
   * Method: `GET`
   * Parameter: `csrf_token`
   * Attack: ``
-  * Evidence: `3548c4ba-b41c-472e-8fcd-45deaa2ac219`
+  * Evidence: `83bdecf7-5162-4cc9-ac1c-32095c835b6f`
   * Other Info: `
 cookie:csrf_token`
 * URL: http://localhost:8003/register
   * Method: `POST`
   * Parameter: `csrf_token`
   * Attack: ``
-  * Evidence: `3548c4ba-b41c-472e-8fcd-45deaa2ac219`
+  * Evidence: `83bdecf7-5162-4cc9-ac1c-32095c835b6f`
   * Other Info: `
 cookie:csrf_token`
 
