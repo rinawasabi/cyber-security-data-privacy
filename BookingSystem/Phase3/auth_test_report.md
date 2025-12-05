@@ -1,4 +1,4 @@
-# 🔐 **Authorization Testing Assignment**
+# 🔐 **Authorization Main Testing List**
 
 
 ---
@@ -6,25 +6,21 @@
 ###  **Guest**
 
 **✅ Can do**
-
-List every action a *Guest* can perform, with the page or endpoint.
-Example format:
-
-* “Can 
-* “Can 
-* “Can
+ or endpoint.
+* “Can access the main page `/`“
+* “Can register her/himself if they are over 15 years old with strong password on `/register`"
+* “Can see other people's reservations without reserver usernames on `/`“
+* “Can “
 
 ---
 
 **❌ Cannot do**
 
 List every action that a *Guest* is blocked from doing.
-Example format:
-
-* “Cannot 
-* “Cannot 
-* “Cannot 
-* “Cannot 
+* “Cannot login without registering first on `/login`"
+* “Cannot add a new resource on `/resource`"
+* “Cannot add a new reservation on `/reservation`"
+* “Cannot “
 
 ---
 
@@ -37,9 +33,10 @@ Include visible pages **and** API endpoints.
 
 Example format:
 
-* “Can”
-* “Can”
-* “Can ”
+* “Can login with own credentials on `/login`”
+* “Can manage own booking events on `/resources`”
+* “Can create/manage reservations on `/reservation”
+* 
 
 ---
 
@@ -60,15 +57,11 @@ Example format:
 
 
 **✅ Can do**
-
-List actions an *Administrator* can perform.
-
-Example format:
-
-* “Can 
-* “Can 
-* “Can 
-* “Can
+* “Can see people's reservations with reservor usernames on `/`”
+* “Can add new resources on `/resources`”
+* “Can add new reservations on `/reservation`”
+* “Canmanage (update/delete) reservations made by reservors on `/reservation?id=`”
+* “Can access Main page without logging in after registering (redirected) from `/register` to `/`“
 ---
 
 **❌ Cannot do**
@@ -78,6 +71,6 @@ List prohibited behaviors, if any, or incorrect implementation issues.
 Example format:
 
 * “Cannot ”
-* “Cannot”
+* “Cannot ”
 
 ---
