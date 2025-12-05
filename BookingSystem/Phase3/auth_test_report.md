@@ -15,7 +15,6 @@
 ---
 
 **❌ Cannot do**
-
 List every action that a *Guest* is blocked from doing.
 * “Cannot login without registering first on `/login`"
 * “Cannot add a new resource on `/resource`"
@@ -27,25 +26,18 @@ List every action that a *Guest* is blocked from doing.
 ###  **Reserver**
 
 **✅ Can do**
-
 List actions a *Reserver* can do according to specs + actual test results.
 Include visible pages **and** API endpoints.
 
-Example format:
-
 * “Can login with own credentials on `/login`”
 * “Can manage own booking events on `/resources`”
-* “Can create/manage reservations on `/reservation”
+* “Can create/manage reservations on `/reservation`”
 * 
 
 ---
 
 **❌ Cannot do**
-
 List actions a *Reserver* is correctly blocked from.
-
-Example format:
-
 * “Cannot 
 * “Cannot 
 * “Cannot
@@ -65,10 +57,7 @@ Example format:
 ---
 
 **❌ Cannot do**
-
 List prohibited behaviors, if any, or incorrect implementation issues.
-
-Example format:
 
 * “Cannot ”
 * “Cannot ”
