@@ -31,4 +31,4 @@
 | 3.12.2025 | 1 | Booking System | Reading other students' finding reports |
 | 4.12.2025 | 1.5 | Online lecture | The project Phase 3 started |
 | 4.12.2025 | 1.5 | Booking System  | Started Phase 3, read materials and tried out some testings |
-| 5.12.2025 | 2 | Booking System  | Working on Authorization Main Testing List |60
+| 5.12.2025 | 3 | Booking System  | Working on Authorization Main Testing List |61
