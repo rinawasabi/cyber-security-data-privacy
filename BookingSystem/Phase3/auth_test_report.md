@@ -10,26 +10,26 @@
 * Can register her/himself (if they are over 15 years old with strong password) on `/register`
 * Can see other people's reservations without reserver usernames on `/`
 * Can access `/api/reservations`, this is okay because it does not show reserver usernames
-* Can access `/resources` (Found via Gobuster & wfuzz), which should not be available for guests
-* Can access `api/resources` (Found via wfuzz) and see every resource made by guests + admin!⚠️
-* Can access `/api/users` (Found via wfuzz), which should only visible to admin!⚠️
-* Can access `/api/reservations/2`(Found via wfuzz), reserver_token also visible!⚠️
+* Can access `/resources` (found via Gobuster & wfuzz), which should not be available for guests
+* Can access `api/resources` (found via wfuzz) and see every resource made by guests + admin!⚠️
+* Can access `/api/users` (found via wfuzz), which should only be visible to admin!⚠️
+* Can access `/api/reservations/{id}`(found via wfuzz), reserver_token also visible!⚠️
 
 ---
 
 **❌ Cannot do**
 List every action that a *Guest* is blocked from doing.
 * Cannot login without registering first on `/login`
-* Cannot add a new resource on `/resource`
+* Cannot add a new resource on `/resource` when accessed from `/`
 * Cannot add a new reservation on `/reservation`
-* Cannot access 
+* Cannot access ???
 
 ---
 
 **Role summary**
-* Crucial vulnability found ->`api/resources` and `/api/users` were visible, they should not be open for guests.
+* **Crucial vulnability found** ->`api/resources` and `/api/users` are visible to guests, they should not be open for guests.
 * `/resources` was accessible and able to add a new resource, which should not be allowed.
-* `/api/reservations/` can be visible since the reserver username is hidden, but when the ID is specified, reserver username is visible. This is not along with the role.
+* `/api/reservations/` can be visible since the reserver username is hidden, but when the ID is specified`/api/reservations/{id}`, reserver username is visible. This is violating role-based access control.
   
   
 
@@ -38,19 +38,19 @@ List every action that a *Guest* is blocked from doing.
 ###  **Reserver**
 
 **✅ Can do**
-List actions a *Reserver* can do according to specs + actual test results.
-Include visible pages **and** API endpoints.
-
 * Can login with own credentials on `/login`
 * Can manage own booking events on `/resources`
 * Can create/manage reservations on `/reservation`
-* 
+* Can access `/api/reservations/`, which is expected.
+* Can access `/api/reservations/{id}`(found via wfuzz), reserver_token also visible!⚠️
+* Can access `/api/users` (found via wfuzz), which should only be visible to admin!⚠️
+* Can access `/api/resources`(found via wfuzz) and see every resource made by guests + admin!⚠️
+
 
 ---
 
 **❌ Cannot do**
-List actions a *Reserver* is correctly blocked from.
-* Cannot 
+* Cannot manage reservations made by others on `/reservation?id={id}`
 * Cannot 
 * Cannot
 * Cannot
@@ -58,8 +58,7 @@ List actions a *Reserver* is correctly blocked from.
 ---
 
 **Role summary**
-*
-  
+* `/api/reservations/` can be visible, but when the ID is specified`/api/reservations/{id}`, reserver_token is visible. This means Reserver can see other Reserver's token and attackers could use this to modify or cancel reservations.
 
 ---
 
