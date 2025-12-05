@@ -1,4 +1,4 @@
-# 🔐 **Authorization Main Testing List**
+# **Authorization Main Testing List**
 
 
 ---
@@ -10,7 +10,7 @@
 * “Can access the main page `/`“
 * “Can register her/himself if they are over 15 years old with strong password on `/register`"
 * “Can see other people's reservations without reserver usernames on `/`“
-* “Can “
+* “Can access `/resources`“
 
 ---
 
@@ -20,6 +20,13 @@ List every action that a *Guest* is blocked from doing.
 * “Cannot add a new resource on `/resource`"
 * “Cannot add a new reservation on `/reservation`"
 * “Cannot “
+
+---
+
+**Role summary**
+* Crucial vulnability found -> Can access `/resources` which should not be visible.
+* 
+  
 
 ---
 
@@ -45,6 +52,12 @@ List actions a *Reserver* is correctly blocked from.
 
 ---
 
+**Role summary**
+*
+  
+
+---
+
 ###  **Administrator**
 
 
@@ -62,4 +75,9 @@ List prohibited behaviors, if any, or incorrect implementation issues.
 * “Cannot ”
 * “Cannot ”
 
+---
+
+**Role summary**
+*
+  
 ---
