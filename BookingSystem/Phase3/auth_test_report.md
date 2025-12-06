@@ -87,9 +87,12 @@ List every action that a *Guest* is blocked from doing.
 ---
 
 **Observation**
-* The visiblity of pages are role-appropriate.
-  However, editing, deleting and adding users were impossible. These should be doable for the admin role.
+* The visiblity of pages and API end points is role-appropriate.
+  However, editing, deleting and adding users were impossible for this role. These actions should be permitted for the admin role.
   
 ---
 
-**Overall summary**
+### **Overall Summary & Reflection**
+The Booking System has crucial vulnabilities when checked based on roles.
+This assignment was truly fun to complete. It was also my first time to use Wfuzz tool, and seeing and experiencing how it works was interesting.
+This time, somehow the ZAP automated scan took quite a long time and used significant amount of CPU. Other than this, everything worked fine and I appreciate this experience!
