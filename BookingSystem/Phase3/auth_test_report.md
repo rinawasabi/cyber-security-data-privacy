@@ -68,9 +68,9 @@
 **✅ Can do**
 * Can access the main page /
 * Can see people's reservations with reserver usernames on `/`
-* Can add new resources on `/resources`”
-* Can add new reservations on `/reservation`”
-* Can access `/register`” and `/login`”
+* Can add new resources on `/resources`
+* Can add new reservations on `/reservation`
+* Can access `/register`” and `/login`
 * Can manage (update/delete) reservations made by reservors on `/reservation?id=`
 * Can access Main page without logging in after registering (redirected) from `/register` to `/`
 * Can access `/api/users` (found via wfuzz), which is expected for this role!
