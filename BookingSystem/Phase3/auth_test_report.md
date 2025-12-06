@@ -35,6 +35,7 @@
 ###  **Reserver**
 
 **✅ Can do**
+* Can access the main page /
 * Can login with own credentials on `/login`
 * Can manage own booking events on `/resources`
 * Can create/manage reservations on `/reservation`
@@ -65,6 +66,7 @@
 
 
 **✅ Can do**
+* Can access the main page /
 * Can see people's reservations with reserver usernames on `/`
 * Can add new resources on `/resources`”
 * Can add new reservations on `/reservation`”
