@@ -28,7 +28,7 @@
 **Observation**
 * **Crucial vulnability found** ->`api/resources` and `/api/users` are visible to guests, they should not be open for guests.
 * `/resources` was accessible and able to add a new resource, which should not be allowed.
-* `/api/reservations/` can be visible since the reserver username is hidden, but when the ID is specified`/api/reservations/{id}`, reserver username is visible. This is violating role-based access control.
+* `/api/reservations` can be visible since the reserver username is hidden, but when the ID is specified`/api/reservations/{id}`, reserver username is visible. This is violating role-based access control.
   
 ---
 
@@ -39,7 +39,7 @@
 * Can login with own credentials on `/login`
 * Can manage own booking events on `/resources`
 * Can create/manage reservations on `/reservation`
-* Can access `/api/reservations/`, which is expected
+* Can access `/api/reservations`, which is expected
 * Can access `/api/reservations/{id}`(found via wfuzz), reserver_token also visible! ⚠️
 * Can access `/api/users` (found via wfuzz), which should only be visible to admin! ⚠️
 * Can access `/api/resources`(found via wfuzz) and see every resource made by reservers + admin! ⚠️
@@ -58,7 +58,7 @@
 **Observation**
 * On UI, it appears that the system is role-appropriate, but when API endpoints are checked, several vulnabilities were found.
 * It turned out that reservers can modify the reservations on UI but cannot directly do the same action via API.
-* `/api/reservations/` can be visible, but when the ID is specified`/api/reservations/{id}`, reserver_token is visible. This means Reserver can see other Reserver's token and attackers could use this to modify or cancel reservations.
+* `/api/reservations` can be visible, but when the ID is specified`/api/reservations/{id}`, reserver_token is visible. This means Reserver can see other Reserver's token and attackers could use this to modify or cancel reservations.
 
 ---
 
