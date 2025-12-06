@@ -48,7 +48,7 @@
 
 **❌ Cannot do**
 * Cannot manage reservations made by others on `/reservation?id={id}` - expected
-* Cannot update or delete own reservations via API (curl DELETE/PUT tested also app.js checked) - expected?
+* Cannot update or delete own reservations via API (`curl DELETE/PUT` tested also `app.js` checked) - expected?
 * Cannot delete/add/edit users 
 * Cannot see added resources on UI
 
@@ -83,9 +83,9 @@
 * Cannot delete users - `curl DELETE` command was tested, but received `HTTP 303` response ⚠️
 * Cannot add new users - `curl POST` command was denied (`HTTP 303` response) ⚠️
 * Cannot edit existing users - `curl PUT` command was denied (`HTTP 303` response) ⚠️
-* Cannot update or delete own reservations via API (curl DELETE/PUT tested also app.js checked)
+* Cannot update or delete own reservations via API (`curl DELETE/PUT` tested also app.js checked)
 * Cannot see added resources on UI.
-* (Cannot access /admin page - would it be beneficial if it exists?)
+* (Cannot access `/admin` page - would it be beneficial if it exists?)
 
 
 ---
