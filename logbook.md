@@ -33,4 +33,5 @@
 | 4.12.2025 | 1.5 | Booking System  | Started Phase 3, read materials and tried out some testings |
 | 5.12.2025 | 5 | Booking System  | Working on Authorization Main Testing List |
 | 6.12.2025 | 2 | Booking System  | Continue working on Authorization Main Testing List |
-| 8.12.2025 | 1 | Booking System  | Final checking the assignment Phase 3 |66
+| 8.12.2025 | 1 | Booking System  | Final checking the assignment Phase 3 |
+| 9.12.2025 | 1 | Final Assignment  | Starting the Final Assignment |67
