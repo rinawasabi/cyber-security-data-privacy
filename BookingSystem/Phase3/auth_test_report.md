@@ -3,7 +3,7 @@
 
 ---
 
-###  **Guest**
+###  🧑‍🦲 **Guest**
 
 **✅ Can do**
 * Can access the main page `/`
@@ -32,7 +32,7 @@
   
 ---
 
-###  **Reserver**
+### 🧑‍💼 **Reserver**
 
 **✅ Can do**
 * Can access the main page `/`
@@ -62,7 +62,7 @@
 
 ---
 
-###  **Administrator**
+### 🧑‍💼🛡️ **Administrator**
 
 
 **✅ Can do**
