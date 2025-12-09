@@ -12,7 +12,7 @@
 | :----: | :--- |
 | &nbsp;✅&nbsp; | The registration form includes GDPR-compliant consent for processing<br> personal data ("I accept the Terms of Service")|
 | &nbsp;❌&nbsp; | Users can only view and cannot edit and delete their own personal data on `/account` |
-| &nbsp;✅/❌&nbsp; | No mechanism available for the administrator to delete a reserver in<br> accordance with the "right to be forgotten" |
+| &nbsp;✅/❌&nbsp; | No mechanism available for the administrator to delete a reserver in<br> accordance with the "right to be forgotten"??? |
 | &nbsp;✅&nbsp; | Underage registration (under 15 years) and booking functionality are correctly restricted |
 
 ---
@@ -20,7 +20,7 @@
 | **Result** | **Booking visibility** |
 | :----: | :--- |
 | &nbsp;✅&nbsp; | Bookings is visible to non-logged-in users without showing Reserver's personal data |
-| &nbsp;✅/❌/⚠️&nbsp; | Is it ensured that names, emails, or other personal data of bookers are not exposed<br> publicly or to unauthorized users? |
+| &nbsp;✅&nbsp; | Personal data including names, emails of bookers are not exposed<br> publicly or to unauthorized users |
 
 --- 
 
