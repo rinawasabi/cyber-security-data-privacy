@@ -2,24 +2,24 @@
 
 | **Result** | **Personal data mapping and minimization** |
 | :----: | :--- |
-| &nbsp;✅/❌/⚠️&nbsp; | Have all personal data collected and processed in the system been<br> identified? (e.g., name, email, age, username) |
-| &nbsp;✅/❌/⚠️&nbsp; | Have you ensured that only necessary personal data is collected (data minimization)? |
-| &nbsp;✅/❌/⚠️&nbsp; | Is user age recorded to verify that the booker is over 15 years old? |
+| &nbsp;✅&nbsp; | All personal data collected and processed have been identified (e.g., username, password_hash, role,  birthdate, terms_accepted)|
+| &nbsp;✅&nbsp; | Only minimal and necessary information is collected to register as a user. |
+| &nbsp;✅&nbsp; | The system prevents registration if the user’s birthdate is under 15 years old |
 
 ---
 
 | **Result** | **User registration and management** |
 | :----: | :--- |
-| &nbsp;✅/❌/⚠️&nbsp; | Does the registration form (page) include GDPR-compliant consent for processing<br> personal data (e.g., acceptance of the privacy policy)?|
-| &nbsp;✅/❌/⚠️&nbsp; | Can users view, edit, and delete their own personal data via their account? |
-| &nbsp;✅/❌/⚠️&nbsp; | Is there a mechanism for the administrator to delete a reserver in<br> accordance with the "right to be forgotten"? |
-| &nbsp;✅/❌/⚠️&nbsp; | Is underage registration (under 15 years) and booking functionality restricted? |
+| &nbsp;✅&nbsp; | The registration form includes GDPR-compliant consent for processing<br> personal data ("I accept the Terms of Service")|
+| &nbsp;❌&nbsp; | Users can only view and cannot edit and delete their own personal data on `/account` |
+| &nbsp;✅/❌&nbsp; | No mechanism available for the administrator to delete a reserver in<br> accordance with the "right to be forgotten" |
+| &nbsp;✅&nbsp; | Underage registration (under 15 years) and booking functionality are correctly restricted |
 
 ---
 
 | **Result** | **Booking visibility** |
 | :----: | :--- |
-| &nbsp;✅/❌/⚠️&nbsp; | Are bookings visible to non-logged-in users only at the resource level<br> (without any personal data)? |
+| &nbsp;✅&nbsp; | Bookings is visible to non-logged-in users without showing Reserver's personal data |
 | &nbsp;✅/❌/⚠️&nbsp; | Is it ensured that names, emails, or other personal data of bookers are not exposed<br> publicly or to unauthorized users? |
 
 --- 
