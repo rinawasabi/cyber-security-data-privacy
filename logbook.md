@@ -36,5 +36,5 @@
 | 8.12.2025 | 1 | Booking System  | Final checking the assignment Phase 3 |
 | 8.12.2025 | 2 | Final Assignment  | Starting the Final Assignment |
 | 9.12.2025 | 3 | Workshop |  The project Phase 2-3 workshop |71
-| 9.12.2025 | 3.5 | Booking System |  Starting the assignment Phase 4 |
-| 11.12.2025 | 1.5 | Online lecture |  x |76
+| 9.12.2025 | 5 | Booking System |  Starting the assignment Phase 4 |
+| 11.12.2025 | 1.5 | Online lecture |  x |77.5
