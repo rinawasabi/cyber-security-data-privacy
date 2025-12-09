@@ -26,33 +26,33 @@
 
 | **Result** | **Access control and authorization** |
 | :----: | :--- |
-| &nbsp;✅/❌/⚠️&nbsp; | Have you ensured that only administrators can add, modify, and delete<br> resources and bookings? |
-| &nbsp;✅/❌/⚠️&nbsp; | Is the system using role-based access control (e.g., reserver vs. administrator)? |
+| &nbsp;❌/&nbsp; | Other reserver can modify the reservation made by another reserver! (Reserver username can even be changed) |
+| &nbsp;❌&nbsp; | Role-based access control reserver vs. administrator is not fully implemented. Reserver can access API endpoints and see the list of users with emails. |
 | &nbsp;✅/❌/⚠️&nbsp; | Are administrator privileges limited to ensure GDPR compliance (e.g., administrators<br> cannot use data for unauthorized purposes)? |
 
 ---
 
 | **Result** | **Privacy by Design Principles** |
 | :----: | :--- |
-| &nbsp;✅/❌/⚠️&nbsp; | Has Privacy by Default been implemented (e.g., collecting the minimum data by default)? |
-| &nbsp;✅/❌/⚠️&nbsp; | Are logs implemented without unnecessarily storing personal data? |
-| &nbsp;✅/❌/⚠️&nbsp; | Are forms and system components designed with data protection in mind<br> (e.g., secured login, minimal fields)? |
+| &nbsp;✅&nbsp; | Privacy by Default has been implemented since the system only collects the minimum data |
+| &nbsp;❌&nbsp; | Logs include reserverUsername which could identify a user! |
+| &nbsp;✅&nbsp; | Forms and system components designed with data protection in mind<br> Overall design is privacy focused |
 
 ---
 
 | **Result** | **Data security** |
 | :----: | :--- |
-| &nbsp;✅&nbsp; | CSRF, XSS and SQL injection protections are successfully implemented, verified by the ZAP scan. |
-| &nbsp;✅/❌/⚠️&nbsp; | Are passwords securely hashed using a strong algorithm (e.g., bcrypt, Argon2)? |
-| &nbsp;✅/❌/⚠️&nbsp; | Are data backup and recovery processes GDPR-compliant? |
-| &nbsp;✅/❌/⚠️&nbsp; | Is personal data stored in data centers located within the EU? |
+| &nbsp;✅&nbsp; | CSRF, XSS and SQL injection protections are successfully implemented, verified by the ZAP scan |
+| &nbsp;✅&nbsp; | Passwords are securely hashed using bcrypt |
+| &nbsp;⚠️&nbsp; | No formal backup/recovery process, relies on local Docker volume persistence |
+| &nbsp;✅&nbsp; | All personal data is stored locally on the host machine within the EU |
 
 ---
 
 | **Result** | **Data anonymization and pseudonymization** |
 | :----: | :--- |
-| &nbsp;✅/❌/⚠️&nbsp; | Is personal data anonymized where possible? |
-| &nbsp;✅/❌/⚠️&nbsp; | Are pseudonymization techniques used to protect data while maintaining its utility? |
+| &nbsp;❌&nbsp; | Personal data is partially anonymized. However, `username`, `user_id` and `birthdate` should be hashed |
+| &nbsp;❌&nbsp; | Partially pseudonymization techniques are used to protect data, but username is saved as plaintext, which is not safe|
 
 ---
 
@@ -66,7 +66,7 @@
 
 | **Result** | **Documentation and communication** |
 | :----: | :--- |
-| &nbsp;✅/❌/⚠️&nbsp; | Is there a privacy policy available to users during registration and easily accessible? |
+| &nbsp;✅&nbsp; | A privacy policy is available to users during registration and easily accessible |
 | &nbsp;✅/❌/⚠️&nbsp; | Are administrators and developers provided with documented data protection practices <br>and processing activities? |
 | &nbsp;✅/❌/⚠️&nbsp; | Is there a documented data breach response process (e.g., how to notify authorities <br>and users of a breach)? |
 
