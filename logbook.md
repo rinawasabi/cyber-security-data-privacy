@@ -34,5 +34,7 @@
 | 5.12.2025 | 5 | Booking System  | Working on Authorization Main Testing List |
 | 6.12.2025 | 2 | Booking System  | Continue working on Authorization Main Testing List |
 | 8.12.2025 | 1 | Booking System  | Final checking the assignment Phase 3 |
-| 8.12.2025 | 2 | Final Assignment  | Starting the Final Assignment |68
-| 9.12.2025 | 4? | Workshop |  The project Phase 2-3 workshop |
+| 8.12.2025 | 2 | Final Assignment  | Starting the Final Assignment |
+| 9.12.2025 | 3 | Workshop |  The project Phase 2-3 workshop |71
+| 9.12.2025 | 3 | Booking System |  Starting the assignment Phase 4 |
+| 11.12.2025 | 1.5 | Booking System |  Starting the assignment Phase 4 |75.5
