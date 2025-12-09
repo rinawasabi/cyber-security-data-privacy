@@ -28,7 +28,7 @@
 | :----: | :--- |
 | &nbsp;❌&nbsp; | Other reserver can modify the reservation made by another reserver!<br> (Reserver username can be even changed) |
 | &nbsp;❌&nbsp; | Role-based access control reserver vs. administrator is not fully implemented.<br> Reserver can access API endpoints and see the list of users with emails. |
-| &nbsp;⚠️&nbsp; |　`booking_admin_logs` for admin actions exists but not active; privileges are broad and unmonitored. |
+| &nbsp;⚠️&nbsp; |`booking_admin_logs` for admin actions exists but not active; privileges are broad and unmonitored. |
 
 ---
 
