@@ -58,17 +58,17 @@
 
 | **Result** | **Data subject rights** |
 | :----: | :--- |
-| &nbsp;✅/❌/⚠️&nbsp; | Can users download or request all personal data related to them (data access request)? |
-| &nbsp;✅/❌/⚠️&nbsp; | Is there an interface or process for users to request the deletion of their personal data? |
-| &nbsp;✅/❌/⚠️&nbsp; | Can users withdraw their consent for data processing? |
+| &nbsp;⚠️&nbsp; | Users can request all personal data related to them via email but currently no download feature avialable on UI |
+| &nbsp;⚠️&nbsp; | Users can request the deletion of their personal data via email but no interface avialable on UI |
+| &nbsp;✅&nbsp; | Users can withdraw their consent for data processing anytime |
 
 ---
 
 | **Result** | **Documentation and communication** |
 | :----: | :--- |
 | &nbsp;✅&nbsp; | A privacy policy is available to users during registration and easily accessible |
-| &nbsp;✅/❌/⚠️&nbsp; | Are administrators and developers provided with documented<br> data protection practices <br>and processing activities? |
-| &nbsp;✅/❌/⚠️&nbsp; | Is there a documented data breach response process<br> (e.g., how to notify authorities <br>and users of a breach)? |
+| &nbsp;✅&nbsp; | Administrators and developers are provided with documented data protection practices <br>and processing activities on `/privacypolicy` |
+| &nbsp;✅&nbsp; | A documented data breach response process on `/privacypolicy` |
 
 ---
 
