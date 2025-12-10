@@ -3,7 +3,7 @@
 _Last updated: December 2025_
 
 ## 1. Introduction
-Welcome to the Booking System operated by **CyberSecure Solutions Ltd.** (“the Company”, “we”, “our”, or “us”).  
+Welcome to the Booking System operated by **CentriaCyber Ltd.** (“the Company”, “we”, “our”, or “us”).  
 These Terms of Service (“Terms”) govern your use of the Booking System (“the System”).  
 By registering for or using the System, you agree to comply with these Terms and our related policies, including the **Privacy Policy** and **Cookie Policy**.
 
@@ -61,7 +61,7 @@ Violations of these rules may result in immediate suspension or termination of a
 ---
 
 ## 7. Intellectual Property
-All system content, including design, code, and documentation, is the intellectual property of **CyberSecure Solutions Ltd.**  
+All system content, including design, code, and documentation, is the intellectual property of **CentriaCyber Ltd.**  
 Users are granted a limited, non-exclusive license to use the system for its intended purpose only.  
 Reproduction, modification, or distribution without permission is strictly prohibited.
 
@@ -93,18 +93,18 @@ Upon termination, user data will be deleted in accordance with our **Privacy Pol
 
 ## 11. Governing Law and Jurisdiction
 These Terms are governed by and interpreted in accordance with the laws of **Finland** and applicable **EU regulations**.  
-Any disputes shall be subject to the exclusive jurisdiction of the courts of Helsinki, Finland.
+Any disputes shall be subject to the exclusive jurisdiction of the courts of Kokkola, Finland.
 
 ---
 
 ## 12. Contact Information
 If you have any questions about these Terms or the use of the Booking System, please contact:
 
-**CyberSecure Solutions Ltd.**  
+**CentriaCyber Ltd.**  
 Email: support@centriacyber.com  
 Address: 12 Innovation Street, Kokkola, Finland
 
 ---
 
-© 2025 CyberSecure Solutions Ltd. All rights reserved.
+© 2025 CentriaCyber Ltd. All rights reserved.
 
