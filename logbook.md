@@ -38,4 +38,5 @@
 | 9.12.2025 | 3 | Workshop |  The project Phase 2-3 workshop |71
 | 9.12.2025 | 5 | Booking System |  Starting the assignment Phase 4 |
 | 10.12.2025 | 2 | Final Assignment | Working on the Final Assignment |
-| 11.12.2025 | 1.5 | Online lecture |  x |79.5
+| 10.12.2025 | 3 | Final Assignment | Completing the GDPR checklist and additional pages for the system |
+| 11.12.2025 | 1.5 | Online lecture |  x |82.5
