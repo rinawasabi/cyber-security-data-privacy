@@ -99,7 +99,7 @@ Data is stored within secure, GDPR-compliant data centers located in the Europea
 For all privacy or data protection inquiries, or to exercise your rights under GDPR, please contact:
 
 **Data Protection Officer (DPO)**  
-Centria Cyber Ltd.  
+CentriaCyber Ltd.  
 Email: privacy@centriacyber.com  
 Address: 12 Innovation Street, Kokkola, Finland
 
@@ -111,5 +111,5 @@ Users will be notified of significant updates through the system interface or vi
 
 ---
 
-© 2025 Centria Cyber Ltd. All rights reserved.
+© 2025 CentriaCyber Ltd. All rights reserved.
 
