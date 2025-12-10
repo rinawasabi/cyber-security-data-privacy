@@ -2,7 +2,7 @@
 
 | **Result** | **Personal data mapping and minimization** |
 | :----: | :--- |
-| &nbsp;✅&nbsp; | All personal data collected and processed have been identified (including username, password_hash,<br> role, birthdate, terms_accepted)|
+| &nbsp;✅&nbsp; | All personal data collected and processed have been identified (including `username`, `password_hash`,<br> `role`, `birthdate`, `terms_accepted`)|
 | &nbsp;✅&nbsp; | Only minimal and necessary information is collected to register as a user |
 | &nbsp;✅&nbsp; | The system prevents registration if the user’s birthdate is under 15 years old |
 
@@ -27,7 +27,7 @@
 | **Result** | **Access control and authorization** |
 | :----: | :--- |
 | &nbsp;❌&nbsp; | Other reserver can modify the reservation made by another reserver!<br> (Reserver username can be even changed) |
-| &nbsp;❌&nbsp; | Role-based access control reserver vs. administrator is not fully implemented.<br> Reserver can access API endpoints and see the list of users with emails. |
+| &nbsp;❌&nbsp; | Role-based access control reserver vs. administrator is not fully implemented.<br> Reserver can access API endpoints and see the list of users with emails! |
 | &nbsp;⚠️&nbsp; |`booking_admin_logs` for admin actions exists but not active; privileges are broad and unmonitored. |
 
 ---
@@ -35,7 +35,7 @@
 | **Result** | **Privacy by Design Principles** |
 | :----: | :--- |
 | &nbsp;✅&nbsp; | Privacy by Default has been implemented since the system only collects the minimum data |
-| &nbsp;❌&nbsp; | Logs include reserverUsername, which could identify a user! |
+| &nbsp;❌&nbsp; | Logs include `reserverUsername`, which could identify a user! |
 | &nbsp;✅&nbsp; | Forms and system components designed with data protection in mind<br> Overall design is privacy focused |
 
 ---
