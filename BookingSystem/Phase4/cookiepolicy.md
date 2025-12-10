@@ -1,4 +1,4 @@
-# Cookie Policy
+# 🍪 Cookie Policy
 
 ## 1. Introduction
 This system uses cookies to improve functionality and maintain user sessions.  
