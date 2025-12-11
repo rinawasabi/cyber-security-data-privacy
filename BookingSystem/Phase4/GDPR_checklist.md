@@ -2,8 +2,8 @@
 
 | **Result** | **Personal data mapping and minimization** |
 | :----: | :--- |
-| &nbsp;✅&nbsp; | All personal data collected and processed have been identified (including `username`, `password_hash`,<br> `role`, `birthdate`, `terms_accepted`).|
-| &nbsp;✅&nbsp; | Only minimal and necessary information is collected to register as a user. |
+| &nbsp;✅&nbsp; | All personal data collected and processed have been identified (including `username`, `password_hash`,<br> `role` & `birthdate`, `terms_accepted`).|
+| &nbsp;✅&nbsp; | Only minimal and necessary information is collected to register as a user (`email address`, `password`& `birthdate`). |
 | &nbsp;✅&nbsp; | The system prevents registration if the user’s birthdate is under 15 years old. |
 
 ---
@@ -26,8 +26,8 @@
 
 | **Result** | **Access control and authorization** |
 | :----: | :--- |
-| &nbsp;❌&nbsp; | A reserver can modify reservations made by another reserver (the reserver’s username can even be changed). |
-| &nbsp;❌&nbsp; | Role-based access control between reserver and administrator is not fully implemented. Reservers can<br> access API endpoints and view the list of users with emails. |
+| &nbsp;❌&nbsp; | A reserver can modify reservations made by another reserver (the reserver’s username can even be changed)! |
+| &nbsp;❌&nbsp; | Role-based access control between reserver and administrator is not fully implemented. Reservers can<br> access API endpoints and view the list of users with emails! |
 | &nbsp;⚠️&nbsp; |`booking_admin_logs` for admin actions exists but not active; privileges are broad and unmonitored. |
 
 ---
@@ -35,7 +35,7 @@
 | **Result** | **Privacy by Design Principles** |
 | :----: | :--- |
 | &nbsp;✅&nbsp; | Privacy by Default has been implemented, as the system only collects the minimum necessary data. |
-| &nbsp;❌&nbsp; | Logs include `reserverUsername`, which could identify a user. |
+| &nbsp;❌&nbsp; | Logs include `reserverUsername`, which could identify a user! |
 | &nbsp;⚠️&nbsp; | Forms and system components are designed with data protection in mind. Overall design is privacy-focused;<br> however not perfect. |
 
 ---
