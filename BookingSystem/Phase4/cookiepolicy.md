@@ -1,5 +1,7 @@
 # 🍪 Cookie Policy
 
+_Last updated: December 2025_
+
 ## 1. Introduction
 This system uses cookies to improve functionality and maintain user sessions.  
 Cookies are small text files stored on your device that help the system remember your login and preferences.
