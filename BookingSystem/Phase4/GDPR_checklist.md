@@ -52,7 +52,7 @@
 | **Result** | **Data anonymization and pseudonymization** |
 | :----: | :--- |
 | &nbsp;⚠️&nbsp; | Personal data is partially anonymized. However, `username`, `user_id` and `birthdate` should also be<br> hashed. |
-| &nbsp;⚠️&nbsp; | Partially pseudonymization techniques are used to protect data, but username is<br> saved as plaintext, which is not secure.|
+| &nbsp;⚠️&nbsp; | Partially pseudonymization techniques are used to protect data, but username is saved as<br> plaintext, which is not secure.|
 
 ---
 
