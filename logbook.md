@@ -39,5 +39,5 @@
 | 9.12.2025 | 5 | Booking System |  Starting the assignment Phase 4 |
 | 10.12.2025 | 2 | Final Assignment | Working on the Final Assignment |
 | 10.12.2025 | 3 | Booking System | Completing the GDPR checklist and additional pages for the system |
-| 11.12.2025 | 1.5 | Online lecture | Last lecture GDPR discussed|
+| 11.12.2025 | 1.5 | Online lecture | Last lecture, GDPR discussed|
 | **Total**  | **82.5h** |  - | - | 
