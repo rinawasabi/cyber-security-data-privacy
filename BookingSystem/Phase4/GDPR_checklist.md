@@ -3,7 +3,7 @@
 | **Result** | **Personal data mapping and minimization** |
 | :----: | :--- |
 | &nbsp;✅&nbsp; | All personal data collected and processed have been identified (including `username`, `password_hash`,<br> `role` & `birthdate`, `terms_accepted`).|
-| &nbsp;✅&nbsp; | Only minimal and necessary information is collected to register as a user (`email address`, `password`& `birthdate`). |
+| &nbsp;✅&nbsp; | Only minimal and necessary information is collected to register as a user (`email address`, `password`&<br> `birthdate`). |
 | &nbsp;✅&nbsp; | The system prevents registration if the user’s birthdate is under 15 years old. |
 
 ---
