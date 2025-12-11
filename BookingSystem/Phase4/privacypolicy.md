@@ -17,7 +17,8 @@ The Booking System collects only the minimal data necessary to provide its core 
 - System-generated user ID and authentication tokens
 - Resource reservation details (date, time, resource type)
 
-We do **not** collect or process any unnecessary data such as payment information, IP tracking, or marketing preferences.
+We do not collect or process any unnecessary data such as payment information or marketing preferences.  
+However, limited technical information (such as IP address and login timestamp) may be temporarily stored for security and audit purposes only.
 
 ---
 
