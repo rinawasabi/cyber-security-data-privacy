@@ -3,7 +3,7 @@
 _Last updated: December 2025_
 
 ## 1. Introduction
-CyberSecure Solutions Ltd. (“the Company”, “we”, “our”, “us”) respects the privacy of all users who interact with our Booking System (“the System”).  
+CentriaCyber Ltd. (“the Company”, “we”, “our”, “us”) respects the privacy of all users who interact with our Booking System (“the System”).  
 This Privacy Policy explains how we collect, use, store, and protect personal data in accordance with the **General Data Protection Regulation (GDPR – EU 2016/679)** and relevant data protection laws.
 
 By using the Booking System, you acknowledge that you have read and understood this Privacy Policy.
@@ -12,8 +12,7 @@ By using the Booking System, you acknowledge that you have read and understood t
 
 ## 2. Data We Collect
 The Booking System collects only the minimal data necessary to provide its core functions (following the **Privacy by Design** and **Privacy by Default** principles):
-- Full name or username (for login and reservation purposes)
-- Email address (for authentication and communication)
+- Email address (used as username for login and reservations)
 - Birthdate (to verify eligibility for reservations – must be over 15 years old)
 - System-generated user ID and authentication tokens
 - Resource reservation details (date, time, resource type)
