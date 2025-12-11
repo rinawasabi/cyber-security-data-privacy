@@ -5,10 +5,11 @@ This system uses cookies to improve functionality and maintain user sessions.
 Cookies are small text files stored on your device that help the system remember your login and preferences.
 
 ## 2. Types of Cookies Used
-- **Session Cookies** – Temporary cookies that keep you logged in while using the system. They are deleted automatically when you close your browser.  
-- **Functional Cookies** – Used to store user settings such as language or theme preferences (if applicable).  
-- **No Tracking or Advertising Cookies** – This system does not use cookies for marketing, analytics, or advertising purposes.
-
+- **Session Cookies** – Used to keep users securely logged in and manage active sessions (`session_id`).  
+  These cookies are essential for authentication and are automatically deleted when the browser is closed.  
+- **Security Cookies** – Used to protect the system from Cross-Site Request Forgery (CSRF) attacks (`csrf_token`).  
+  These are strictly necessary for maintaining system integrity.  
+- **No Tracking or Advertising Cookies** – This system does not use cookies for analytics, marketing, or advertising purposes.
 
 ## 3. Purpose of Using Cookies
 Cookies are strictly used to:
