@@ -91,7 +91,7 @@ In the event of a personal data breach:
 
 ## 9. Third-Party Sharing
 No personal data is shared with third parties, advertisers, or analytics providers.  
-Data is stored within secure, GDPR-compliant data centers located in the European Union.
+Data is stored securely on local servers within the European Union (host machine using Docker volumes).
 
 ---
 
